@@ -5,8 +5,11 @@
     return file_name.substring(file_name.lastIndexOf("/")+1, end);
 }
 
-function writeMenuEntry(contents, url, openInNewTab = false, alignRight = false)
+function writeMenuEntry(contents, url, openInNewTab, alignRight)
 {
+    openInNewTab = openInNewTab || false;
+    alignRight = alignRight || false;
+
     var docName = getDocumentName();
 
     document.write('<a href="' + url + '" ');
@@ -39,4 +42,6 @@ function drawSiteHeader()
     writeMenuEntry('Ссылки', 'links.html');
     writeMenuEntry('Я на GitHub', 'https://github.com/gecko0307', true, true);
     document.write('</div>');
+    document.write('<div>Hello!</div>');
 }
+
