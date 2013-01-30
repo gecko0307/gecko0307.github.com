@@ -1,4 +1,3 @@
-site
+gecko0307.github.com
 ====
-
-My personal place for web pages
+My personal web site
