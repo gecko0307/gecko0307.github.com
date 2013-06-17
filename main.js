@@ -33,6 +33,7 @@ function drawSiteHeader()
 {
     document.write('<div id="Header"> </div>');
     document.write('<div id="MainMenu">');
+    writeMenuEntry('Новости', 'blog.html');
     writeMenuEntry('Обо мне', 'index.html');
     writeMenuEntry('Блог', 'http://dlanggamedev.blogspot.ru', true);
     writeMenuEntry('Статьи', 'articles.html');
