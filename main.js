@@ -1,4 +1,4 @@
-function getDocumentName()
+﻿function getDocumentName()
 {
     var file_name = document.location.href;
     var end = (file_name.indexOf("?") == -1) ? file_name.length : file_name.indexOf("?");
