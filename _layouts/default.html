@@ -6,7 +6,13 @@
         <link rel=stylesheet href="style.css" Type="text/css"/>
     </head> 
     <body bgcolor="#ffffff">
-        {% include header.html %}
+<center>
+    <div class="BlogHeader">
+    <p class="BlogTitle">My Blog</p>
+    <p class="PostTextWhite">Powered by Jekyll!</p>
+    </div>
+</center>
+
 <center>
     {% for post in site.posts limit: 10 %}
         <div class="Post">
