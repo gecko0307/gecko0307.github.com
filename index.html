@@ -4,12 +4,3 @@ title: Welcome
 ---
 Welcome!
 
-<center>
-    {% for post in site.posts limit: 10 %}
-        <div class="Post">
-            <p class="PostTitle"><a href="{{ post.url }}">{{ post.title }}</a></p>
-            <p class="PostText" style="color:#c3bfbc">{{ post.date | date_to_long_string }}</p>
-        </div>
-    {% endfor %}
-</center>
-
