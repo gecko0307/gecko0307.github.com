@@ -26,6 +26,25 @@
     text-shadow: 0px 2px 3px #004463;
 }
 
+.Post
+{
+    width: 50%;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid #d6d2cf;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
 .PostTitle
 {
     color: #3B5998;
