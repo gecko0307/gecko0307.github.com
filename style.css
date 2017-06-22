@@ -24,6 +24,12 @@ h2 {
   color: #cc6666;
 }
 
+h3 {
+  font-size: 1.3em;
+  font-weight: normal;
+  color: #cc6666;
+}
+
 p {
   line-height: 1.4em;
 }
